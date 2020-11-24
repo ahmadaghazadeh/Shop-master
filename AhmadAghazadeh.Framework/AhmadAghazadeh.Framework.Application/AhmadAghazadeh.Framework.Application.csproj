@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ahmad.Aghazadeh.Framework.Core\AhmadAghazadeh.Framework.Core.csproj" />
+    <ProjectReference Include="..\AhmadAghazadeh.Framework.Persistence\AhmadAghazadeh.Framework.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
