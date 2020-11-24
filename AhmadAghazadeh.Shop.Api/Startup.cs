@@ -63,6 +63,7 @@ namespace AhmadAghazadeh.Shop.Api
 
             });
 
+
             using (var serviceProvider = services.BuildServiceProvider())
             {
                 var dbContext = serviceProvider.GetRequiredService<IDbContext>();
